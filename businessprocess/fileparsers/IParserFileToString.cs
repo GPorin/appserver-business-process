@@ -1,4 +1,4 @@
-﻿namespace BusinessProcess.FileParsers;
+﻿namespace fileparsers;
 
 public interface IParserFileToString
 {
