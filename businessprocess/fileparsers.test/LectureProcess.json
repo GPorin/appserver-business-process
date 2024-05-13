@@ -1,37 +1,35 @@
 {
-  "Process": {
-    "Start": "",
-    "Init": {
-      "LectureProcess": {
-        "Properties": {
-          "ProcessDescription": {
-            "Include": [
-              {
-                "Command": "GetClassNumber"
-              },
-              {
-                "Command": "GetGroupNumber"
-              },
-              {
-                "Command": "CheckAttendance"
-              },
-              {
-                "Command": "GetLectureName"
-              },
-              {
-                "Command": "TurnOnProjector"
-              },
-              {
-                "Command": "OpenLecture"
-              },
-              {
-                "Command": "WaitToFinish"
-              }
-            ]
-          }
+  "Start": "",
+  "Init": {
+    "LectureProcess": {
+      "Properties": {
+        "ProcessDescription": {
+          "Include": [
+            {
+              "Command": "GetClassNumber"
+            },
+            {
+              "Command": "GetGroupNumber"
+            },
+            {
+              "Command": "CheckAttendance"
+            },
+            {
+              "Command": "GetLectureName"
+            },
+            {
+              "Command": "TurnOnProjector"
+            },
+            {
+              "Command": "OpenLecture"
+            },
+            {
+              "Command": "WaitToFinish"
+            }
+          ]
         }
       }
-    },
-    "End": ""
-  }
+    }
+  },
+  "End": ""
 }

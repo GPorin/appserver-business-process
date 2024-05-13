@@ -1,1 +1,1 @@
-Start Init LectureProcess Properties ProcessDescription Include Command GetClassCommand Command GetGroupNumber Command CheckAttendance Command GetLectureName Command TurnOnProjector Command OpenLecture Command WaitToFinish End
+Start Init LectureProcess Properties ProcessDescription Include Command GetClassNumber Command GetGroupNumber Command CheckAttendance Command GetLectureName Command TurnOnProjector Command OpenLecture Command WaitToFinish End 

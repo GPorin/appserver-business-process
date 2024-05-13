@@ -2,5 +2,5 @@
 
 public interface IParserFileToString
 {
-	public string ToString();
+	public string ConvertToString();
 }
