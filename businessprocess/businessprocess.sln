@@ -5,7 +5,9 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fileparsers", "fileparsers\fileparsers.csproj", "{3BCA62EE-67A6-422C-BD72-700BA17C0252}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fileparsers.test", "fileparsers.test\fileparsers.test.csproj", "{AA3D9226-2139-45B5-8B43-C3B2F604FB63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "fileparsers.test", "fileparsers.test\fileparsers.test.csproj", "{AA3D9226-2139-45B5-8B43-C3B2F604FB63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "grammarparser", "grammarparser\grammarparser.csproj", "{71E85822-7F68-4080-84B3-99207DB6F076}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{AA3D9226-2139-45B5-8B43-C3B2F604FB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA3D9226-2139-45B5-8B43-C3B2F604FB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA3D9226-2139-45B5-8B43-C3B2F604FB63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71E85822-7F68-4080-84B3-99207DB6F076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E85822-7F68-4080-84B3-99207DB6F076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E85822-7F68-4080-84B3-99207DB6F076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E85822-7F68-4080-84B3-99207DB6F076}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
