@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "scopes", "..\appserver\scop
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "server", "..\appserver\server\server.csproj", "{20B6592E-B6A3-47D4-90F7-D1B49736DB58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grammarparser.test", "grammarparser.test\grammarparser.test.csproj", "{D0539896-0375-48EF-A530-3CBC9A5EEEA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{20B6592E-B6A3-47D4-90F7-D1B49736DB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20B6592E-B6A3-47D4-90F7-D1B49736DB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20B6592E-B6A3-47D4-90F7-D1B49736DB58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0539896-0375-48EF-A530-3CBC9A5EEEA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0539896-0375-48EF-A530-3CBC9A5EEEA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0539896-0375-48EF-A530-3CBC9A5EEEA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0539896-0375-48EF-A530-3CBC9A5EEEA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
