@@ -3,11 +3,11 @@ grammar Process;
  правила парсера
  */
 process: START initProcess END EOF;
-initProcess: INIT objectWithProperty+;
+initProcess: INIT objectWithProperty;
 /*Здесь WORD - это название объекта*/
 objectWithProperty: WORD PROPERTIES objectProperties;
 /*Здесь WORD - это название свойства объекта*/
-objectProperties: (WORD property)+;
+objectProperties: WORD property;
 property: INCLUDE chainOfCommands;
 chainOfCommands: (simplecommand | conditioncommand)+;
 simplecommand : COMMAND GAMECOMMANDS;

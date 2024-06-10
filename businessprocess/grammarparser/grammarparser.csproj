@@ -14,6 +14,7 @@
     <ProjectReference Include="..\..\appserver\commands\commands.csproj" />
     <ProjectReference Include="..\..\appserver\core\core.csproj" />
     <ProjectReference Include="..\..\appserver\scopes\scopes.csproj" />
+    <ProjectReference Include="..\..\appserver\server\server.csproj" />
     <ProjectReference Include="..\fileparsers\fileparsers.csproj" />
   </ItemGroup>
 

@@ -17,7 +17,7 @@ namespace AppServer.Commands
 
         public void Receive(ICommand cmd)
         {
-            _queue.TryAdd(cmd);
+            _queue.Add(cmd);
         }
     }
 }
