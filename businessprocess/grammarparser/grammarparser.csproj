@@ -10,4 +10,11 @@
 	<PackageReference Include="Antlr4.Runtime.Standard" Version="4.13.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\appserver\commands\commands.csproj" />
+    <ProjectReference Include="..\..\appserver\core\core.csproj" />
+    <ProjectReference Include="..\..\appserver\scopes\scopes.csproj" />
+    <ProjectReference Include="..\fileparsers\fileparsers.csproj" />
+  </ItemGroup>
+
 </Project>

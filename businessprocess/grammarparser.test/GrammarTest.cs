@@ -36,6 +36,8 @@ namespace grammarparser.test
             IParseTree tree = parser.process();
             ProcessSimpleCommandListener listener = new ProcessSimpleCommandListener();
             ParseTreeWalker.Default.Walk(listener, tree);
+
+            
         }
     }
 }
